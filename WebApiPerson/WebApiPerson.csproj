@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <!--Configuraciones del proyecto-->
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+	<!--Habilitar la propiedad null-->
+    <Nullable>enable</Nullable>
+	<!--Habilita los using implicitos, como los imports dentro de js-->
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <!--Agreagar las dependencias o nugets utilizados-->
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+</Project>
